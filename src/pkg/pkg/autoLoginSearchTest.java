@@ -33,9 +33,9 @@ public class autoLoginSearchTest {
         //登录
         dr.get(url);
         dr.findElement(By.id("account")).clear();
-        dr.findElement(By.id("account")).sendKeys("18611742186");
+        dr.findElement(By.id("account")).sendKeys("******");
         dr.findElement(By.id("pwd")).clear();
-        dr.findElement(By.id("pwd")).sendKeys("leilei20w");
+        dr.findElement(By.id("pwd")).sendKeys("******");
         dr.findElement(By.id("login-btn")).click();
         //打开理财规划子版块，然后关闭左侧导航栏
         dr.findElement(By.linkText("理财规划")).click();
